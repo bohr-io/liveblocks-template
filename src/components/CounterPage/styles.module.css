@@ -1,0 +1,32 @@
+.page {
+  position: relative;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  padding: 2em;
+}
+
+.counterValue {
+  margin-inline: 1em;
+}
+
+.avatars {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  line-height: 0;
+}
+
+.cursors {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}

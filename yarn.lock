@@ -358,6 +358,27 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@liveblocks/client@0.19.2", "@liveblocks/client@^0.19.2":
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/@liveblocks/client/-/client-0.19.2.tgz#622ff87bb1ec6648ed0ddc183b8695d4d8248e90"
+  integrity sha512-z4OLKet8n0KcmQLtDfuDmkZuGEfxPDI6lxc0Qt5Dl65f1jN4tb8FCiB8+0GIYpl2HOgI8WH/ptFT95EFGYRg3A==
+  dependencies:
+    "@liveblocks/core" "0.19.2"
+
+"@liveblocks/core@0.19.2":
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/@liveblocks/core/-/core-0.19.2.tgz#18c2fd8e30db383a0058a0ee5b2275762e23c6bf"
+  integrity sha512-/gLT7kA8AMzaNKMEruOMmTmcNbuPre2bnJT+K8ecGWpNsKJsnY4kfobfMrSrLSn9Qvi4OiHpa6DahjRZ8Hx2JA==
+
+"@liveblocks/react@^0.19.2":
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/@liveblocks/react/-/react-0.19.2.tgz#e7cb68498e122e1d0fa8419c46214f812c40b6ac"
+  integrity sha512-o7Pfxb7oieki63lhIT/1Jj+sODaVg3K+/gmowDOE53ebUz16RyR5m/DMgZm+qsoikDQF5Vdv0oTt9hYPuaj7rw==
+  dependencies:
+    "@liveblocks/client" "0.19.2"
+    "@liveblocks/core" "0.19.2"
+    use-sync-external-store "^1.2.0"
+
 "@types/prop-types@*":
   version "15.7.5"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
@@ -677,6 +698,11 @@ update-browserslist-db@^1.0.9:
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
+
+use-sync-external-store@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
 
 vite@^4.0.0:
   version "4.0.3"

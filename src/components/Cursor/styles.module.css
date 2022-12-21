@@ -1,0 +1,11 @@
+.cursor {
+  --x: 0px;
+  --y: 0px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 100ms linear;
+  transform: translate(var(--x), var(--y));
+  pointer-events: none;
+}

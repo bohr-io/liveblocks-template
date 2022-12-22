@@ -13,7 +13,7 @@ function App() {
   const initialStorage = {
     count: new LiveObject({ value: 0, a: 0 }),
   };
-console.log('initialStorage',initialStorage);
+
   return (
     <RoomProvider
       id='room-id'

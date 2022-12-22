@@ -1,10 +1,14 @@
-.page {
-  position: relative;
-  display: grid;
-  place-content: center;
-  place-items: center;
+.pageWrapper {
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+}
+
+.pageWrapper,
+.pageMain {
+  position: relative;
+  display: grid;
+  place-items: center;
 }
 
 .card {
@@ -27,6 +31,7 @@
 
 .cursors {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   pointer-events: none;
 }

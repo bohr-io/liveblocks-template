@@ -69,6 +69,7 @@ export default function CounterPage() {
               x={other.presence.cursor.x}
               y={other.presence.cursor.y}
               colorSeed={other.connectionId}
+              name={other.presence.username}
             />
           ))}
         </div>

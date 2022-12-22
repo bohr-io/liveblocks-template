@@ -1,5 +1,6 @@
 const colors = [
   'black',
+  'bisque',
   'red',
   'green',
   'blue',
